@@ -4,8 +4,8 @@ highlighter:      rouge
 
 # Setup
 title:            toschiscreen                   #Changes the site's name in side bar and in the page's title
-# tagline:          'Tela sensível ao Toschi'   #Description in the page's title
-description:      'Portifolio'                  #Description in the side bar.
+# tagline:        'Tela sensível ao Toschi '   #Description in the page's title
+description:      'Portfólio'                    #Description in the side bar.
 
 # author:
 #   name:           'Andrew Fong'
