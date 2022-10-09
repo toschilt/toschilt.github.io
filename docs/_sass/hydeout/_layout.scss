@@ -38,7 +38,7 @@ body {
 
   .site-title {
     font-family: 'Abril Fatface', serif;
-    font-size: $large-font-size*2;
+    font-size: 5vh;
     font-weight: normal;
     margin-bottom: $heading-spacing;
     margin-top: 0;
@@ -162,6 +162,8 @@ body {
     width: 22.5vw;
     height: auto;
     display: block;
+    max-width: 100%;
+    max-height: 100%;
   }
 
   #sidebar,
