@@ -57,8 +57,7 @@ img {
 }
 
 table {
-  border: 1px solid $border-color;
-  border-collapse: collapse;
+  border-style: hidden!important;
   font-size: 85%;
   margin-bottom: 1rem;
   width: 100%;
@@ -66,7 +65,7 @@ table {
 
 td,
 th {
-  border: 1px solid $border-color;
+  border: none;
   padding: 0.25rem 0.5rem;
 }
 
@@ -76,7 +75,7 @@ th {
 
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: $gray-1;
+  background-color: $body-bg;
 }
 
 button,
