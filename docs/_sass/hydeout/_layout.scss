@@ -38,13 +38,19 @@ body {
 
   .site-title {
     font-family: 'Abril Fatface', serif;
-    font-size: $large-font-size;
+    font-size: $large-font-size*2;
     font-weight: normal;
     margin-bottom: $heading-spacing;
     margin-top: 0;
   }
 
   .site-title .back-arrow { margin-right: 0.5rem; }
+}
+
+#responsive-sidebar-image {
+  margin: 0 auto 2vh auto;
+  height: 50vh;
+  width: auto;
 }
 
 .content {
@@ -111,7 +117,7 @@ body {
 
   // Bigger title
   .site-title {
-    font-size: 3.25rem;
+    font-size: 5vh;
   }
 
   // Show secondary nav content + lead
@@ -150,6 +156,14 @@ body {
 
   /* Undo mobile CSS */
 
+  #responsive-sidebar-image,
+  #sidebar {
+    margin: 0 0 2vh 0;
+    width: 22.5vw;
+    height: auto;
+    display: block;
+  }
+
   #sidebar,
   .home #sidebar {
     text-align: left;
@@ -157,6 +171,10 @@ body {
 
     > *:last-child {
       margin-bottom: 0;
+    }
+
+    .site-title {
+      font-size: 3.8vw;
     }
   }
 
@@ -182,7 +200,7 @@ body {
     }
 
     .site-title {
-      font-size: 3.25rem;
+      font-size: 3.8vw;
       .back-arrow { display: none; }
     }
 
